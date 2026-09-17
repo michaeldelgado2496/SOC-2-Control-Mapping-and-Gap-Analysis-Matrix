@@ -1,0 +1,4 @@
+Control ID,Trust Services Criteria,Control Description,NIST 800-53 Mapping,Implementation Status,Evidence / Artifact Link,Remediation Notes
+CC6.1,Risk Mitigation,Access to the TacoTrax management software is strictly authorized with MFA,AC-2,Implemented,/SOC-2-Artifact/Policies/Acess-Control-Policy.pdf,Role-based access control verified for all regional taco leads.
+CC6.4,Boundary Protection,External connections from GPS-enabled taco truck delivery fleets are secured via ecnrypted firewalls.,SC-7,In Progress,Upgrading VPN Tunnels for remote truck telemetry data.,Evaluate third-party vendor quotes for enterprise-grade firewalls
+CC6.9,Transmission Encryption,Customer delivery data and proprietary carnitas seasoning secret formulas are encrypted in transit and at rest.,SC-13,Not Started,/SOC-2-Artifacts/Configs/Encryption-Standard.pdf,Plans made for encryption rollout for Q3
